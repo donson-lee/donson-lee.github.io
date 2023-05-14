@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+  font-size: 62.9%;
+}
+body {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.87),
+    rgba(0, 0, 0, 0.87)
+  );
+}
+section {
+  margin-top: 3rem;
+}
+h1 {
+  color: #ccc;
+}
+.container {
+  margin: 0 6%;
+}

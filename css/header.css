@@ -1,0 +1,130 @@
+.header {
+  padding: 1.3rem 5%;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.brand {
+  margin-right: auto;
+}
+.brand-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+  font-family: tahoma;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .nav-item {
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: Helvetica;
+  color: navy;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0 0.8rem;
+  cursor: pointer;
+}
+.navbar .nav-item:hover {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+.btn {
+  margin-left: 2rem;
+  padding: 0.4em 0.8em;
+  border: 1px solid #333;
+  border-radius: 0.9em;
+}
+.btn .btn-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+/* icon styling */
+.icons {
+  display: none;
+}
+.menu-icon .lines {
+  width: 30px;
+  height: 2.8px;
+  border-radius: 10px;
+  background-color: #111;
+  margin: 5px 0;
+}
+.close-icon {
+  margin-left: 2em;
+}
+.close-lines {
+  width: 30px;
+  height: 2.8px;
+  border-radius: 10px;
+  background-color: #111;
+  margin: 5px 0;
+  position: absolute;
+  top: 38%;
+  right: 5%;
+}
+#X {
+  transform: rotate(45deg);
+}
+#Y {
+  transform: rotate(-45deg);
+}
+.btn {
+  margin-right: 2em;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 769px) {
+  .navbar {
+    position: absolute;
+    flex-direction: column;
+    top: 99.9%;
+    right: -100%;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    background-color: #252947;
+  }
+  .navbar.activate {
+    right: 3%;
+  }
+  .navbar .nav-item {
+    margin: 0.4em 0.8rem;
+    padding: 0.6em;
+    width: 8em;
+    height: 3em;
+    text-align: center;
+    color: #edf5f7;
+  }
+  .navbar .nav-item:hover {
+    text-decoration: none;
+    background-color: rgb(58, 58, 142);
+    color: #edf5f7;
+  }
+
+  /* ICONS STYLING */
+  .icons {
+    display: block;
+  }
+  .icons .menu-icon {
+    display: block;
+  }
+  .icons .menu-icon.hide {
+    display: none;
+  }
+  .icons .close-icon {
+    display: none;
+  }
+  .close-icon.active {
+    display: inline-block;
+  }
+}
