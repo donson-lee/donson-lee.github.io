@@ -12,6 +12,7 @@
   flex-basis: 75%;
   flex: 1 1 auto;
   margin-left: 1em;
+  background-color: rgba(255, 255, 255, 0.09);
 }
 .title {
   background: linear-gradient(

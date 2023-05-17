@@ -9,13 +9,11 @@
   right: 0;
 }
 .brand {
+  width: 50px;
   margin-right: auto;
 }
-.brand-title {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #222;
-  font-family: tahoma;
+.logo-image {
+  width: 50px;
 }
 .navbar {
   display: flex;
