@@ -91,6 +91,7 @@
     margin-top: 0.5em;
     border: 1px solid #ccc;
     background-color: #252947;
+    overflow-y: auto;
   }
   .navbar.activate {
     right: 3%;

@@ -88,6 +88,9 @@
 .img-box:hover .foto {
   transform: scale(1.5) rotate(15deg);
 }
+.email {
+  color: lightskyblue;
+}
 @keyframes spin {
   from {
     transform: rotate(0deg);
