@@ -86,6 +86,13 @@
   padding: 1em;
   margin-top: 0.5em;
 }
+.tech-icons {
+  width: 100px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10%;
+  margin-right: 0.6em;
+}
 .tek-stack {
   width: 100%;
   text-align: center;
