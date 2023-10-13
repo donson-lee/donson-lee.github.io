@@ -20,8 +20,15 @@
   font-family: Verdana;
   letter-spacing: 0.3rem;
   margin-top: 2em;
-  margin-bottom: 1.6em;
-  color: #fff;
+  margin-bottom: 1.1rem;
+  background: linear-gradient(
+    to right,
+    rgba(235, 133, 17, 0.8),
+    rgba(59, 160, 227, 0.8)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
 }
 .sub-grettings {
@@ -30,7 +37,7 @@
   letter-spacing: 0;
 }
 .info {
-  margin: 3em 0 1em 0;
+  margin: 1rem 0 1em 0;
   padding: 1.4em;
 }
 .info:hover {
@@ -40,7 +47,14 @@
   font-size: 1.6rem;
   font-weight: 600;
   font-family: Verdana;
-  color: #fff;
+  background: linear-gradient(
+    to right,
+    rgba(222, 234, 220, 0.8),
+    rgba(67, 55, 236, 0.92)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   line-height: 1.4;
 }
 .profile-heading {
@@ -48,7 +62,14 @@
   font-size: 2.8rem;
   font-weight: 600;
   font-family: sans-serif;
-  color: #ccc;
+  background: linear-gradient(
+    to right,
+    rgba(13, 247, 5, 0.8),
+    rgba(235, 26, 44, 0.92)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   line-height: 1.4;
 }
 .hero-content {
@@ -60,7 +81,7 @@
   color: #ccc;
   line-height: 1.5;
   font-family: sans-serif;
-  margin: 1.2em 0;
+  margin-bottom: 1.2rem;
 }
 
 /* TOP LEFT STYLING , BOTTOM RIGHT STYLING */
@@ -87,6 +108,11 @@
 }
 .img-box:hover .foto {
   transform: scale(1.5) rotate(15deg);
+}
+.iimg-box {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
 }
 .email {
   color: lightskyblue;
